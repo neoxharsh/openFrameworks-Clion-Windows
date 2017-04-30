@@ -1,0 +1,8 @@
+"C:\Users\neo\AppData\Roaming\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\neo\CLionProjects\ofAppClionWin
+-- Found PkgConfig: C:/msys64/mingw32/bin/pkg-config.exe (found version "0.29.2") 
+-- Checking for one of the modules 'cairo'
+-- Checking for one of the modules 'zlib'
+-- Checking for one of the modules 'glew'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug

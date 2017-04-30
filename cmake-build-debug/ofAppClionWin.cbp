@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ofAppClionWin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\Downloads\;CMake Files\..\..\Downloads\of_v0.9.8_msys2_release\;CMake Files\..\..\Downloads\of_v0.9.8_msys2_release\of_v0.9.8_msys2_release\;CMake Files\..\..\Downloads\of_v0.9.8_msys2_release\of_v0.9.8_msys2_release\libs\;CMake Files\..\..\Downloads\of_v0.9.8_msys2_release\of_v0.9.8_msys2_release\libs\fmodex\;CMake Files\..\..\Downloads\of_v0.9.8_msys2_release\of_v0.9.8_msys2_release\libs\fmodex\lib\;CMake Files\..\..\Downloads\of_v0.9.8_msys2_release\of_v0.9.8_msys2_release\libs\fmodex\lib\msys2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled2">
+				<Option output="C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/untitled2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/gl"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/3d"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/app"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/communication"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/events"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/graphics"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/math"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/sound"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/types"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/utils"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/video"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/boost/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/fmodex/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/FreeImage/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/Freetype/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/glfw/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/glu/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/poco/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/quicktime/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/rtAudio/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/tess2/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/utf8cpp/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/videoInput/include"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include/c++/6.3.0/i686-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled2"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="untitled2/fast">
+				<Option output="C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/untitled2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/gl"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/3d"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/app"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/communication"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/events"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/graphics"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/math"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/sound"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/types"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/utils"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/openFrameworks/video"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/boost/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/fmodex/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/FreeImage/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/Freetype/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/glfw/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/glu/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/poco/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/quicktime/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/rtAudio/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/tess2/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/utf8cpp/include"/>
+					<Add directory="C:/Users/neo/Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/videoInput/include"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include/c++/6.3.0"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include/c++/6.3.0/i686-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include/c++/6.3.0/backward"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled2/fast"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.8.0/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/Users/neo/CLionProjects/ofAppClionWin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/neo/CLionProjects/ofAppClionWin/src/main.cpp">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="C:/Users/neo/CLionProjects/ofAppClionWin/src/ofApp.cpp">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="C:/Users/neo/CLionProjects/ofAppClionWin/src/ofApp.h">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="C:/Users/neo/CLionProjects/ofAppClionWin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/neo/CLionProjects/ofAppClionWin/includelist.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/neo/CLionProjects/ofAppClionWin/../../Downloads/of_v0.9.8_msys2_release/of_v0.9.8_msys2_release/libs/fmodex/lib/msys2/fmodex.dll">
+			<Option virtualFolder="CMake Files\..\..\Downloads\of_v0.9.8_msys2_release\of_v0.9.8_msys2_release\libs\fmodex\lib\msys2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
